@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SehatHomeCare - Layanan Kesehatan Keluarga di Rumah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">SehatHomeCare</div>
+        <ul class="nav-links">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#layanan">Layanan</a></li>
+            <li><a href="#pesan">Pesan Layanan</a></li>
+        </ul>
+        <a href="#pesan" class="btn-primary">Hubungi Kami</a>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="beranda">
+        <div class="hero-text">
+            <h1>Layanan Kesehatan Profesional Langsung di Rumah Anda</h1>
+            <p>Dapatkan perawatan medis, pendampingan lansia, dan terapi fisik dari tenaga medis terpercaya tanpa perlu keluar rumah.</p>
+            <a href="#pesan" class="btn-primary">Pesan Perawat Sekarang</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=500&q=80" alt="Layanan Homecare Medical">
+        </div>
+    </section>
+
+    <!-- LAYANAN SECTION -->
+    <section class="services" id="layanan">
+        <h2 class="section-title">Layanan Utama Kami</h2>
+        <div class="service-cards">
+            <div class="card">
+                <div class="card-icon">🩺</div>
+                <h3>Perawat Medis</h3>
+                <p>Perawatan medis harian, infus, perawatan luka, dan pemantauan kondisi medis pasien.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">👵</div>
+                <h3>Pendamping Lansia</h3>
+                <p>Pendampingan penuh kasih sayang untuk membantu aktivitas harian lansia di rumah.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🤸</div>
+                <h3>Fisioterapi</h3>
+                <p>Terapi pemulihan fisik post-stroke, cedera, atau pemulihan paska operasi.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">👶</div>
+                <h3>Perawatan Ibu & Bayi</h3>
+                <p>Layanan perawatan pasca melahirkan, pemijatan bayi, dan konsultasi laktasi.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORM PEMESANAN -->
+    <section class="booking" id="pesan">
+        <h2 class="section-title" style="text-align: center;">Pesan Layanan</h2>
+        <form id="bookingForm">
+            <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" required placeholder="Masukkan nama Anda">
+            </div>
+            <div class="form-group">
+                <label for="telepon">Nomor WhatsApp</label>
+                <input type="tel" id="telepon" required placeholder="Contoh: 08123456789">
+            </div>
+            <div class="form-group">
+                <label for="layanan-select">Pilih Layanan</label>
+                <select id="layanan-select" required>
+                    <option value="">-- Pilih Layanan --</option>
+                    <option value="Perawat Medis">Perawat Medis</option>
+                    <option value="Pendamping Lansia">Pendamping Lansia</option>
+                    <option value="Fisioterapi">Fisioterapi</option>
+                    <option value="Perawatan Ibu & Bayi">Perawatan Ibu & Bayi</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="alamat">Alamat Lengkap</label>
+                <textarea id="alamat" rows="3" required placeholder="Masukkan alamat kunjungan"></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Kirim Pesanan via WhatsApp</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 SehatHomeCare. Layanan Kesehatan Terpercaya Keluarga Anda.</p>
+    </footer>
+
+    <!-- JAVASCRIPT LINK -->
+    <script src="script.js"></script>
+</body>
+</html>
