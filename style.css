@@ -7,8 +7,8 @@
 }
 
 :root {
-    --primary-color: #008080;
-    --primary-dark: #005656;
+    --primary-color: #f28b8b;
+    --primary-dark: #f67a93;
     --secondary-color: #e0f2f1;
     --text-color: #333333;
     --light-bg: #f9f9f9;
@@ -33,7 +33,7 @@ a {
     align-items: center;
     padding: 1rem 5%;
     background-color: var(--white);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(227, 119, 119, 0.781);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -124,7 +124,7 @@ a {
     background: var(--white);
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(225, 126, 126, 0.741);
     transition: transform 0.3s;
 }
 
@@ -156,7 +156,7 @@ a {
     background: var(--white);
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(238, 142, 142, 0.891);
 }
 
 .form-group {
