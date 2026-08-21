@@ -9,7 +9,7 @@
 :root {
     --primary-color: #f28b8b;
     --primary-dark: #f67a93;
-    --secondary-color: #e0f2f1;
+    --secondary-color: #e7a1af;
     --text-color: #333333;
     --light-bg: #f9f9f9;
     --white: #ffffff;
@@ -174,7 +174,7 @@ a {
 .form-group select, 
 .form-group textarea {
     padding: 0.8rem;
-    border: 1px solid #ccc;
+    border: 1px solid #e2b7b7;
     border-radius: 4px;
     font-size: 1rem;
 }
