@@ -20,3 +20,58 @@
       </ul>
     </nav>
   </header>
+
+  <main>
+    <div class="section-title">
+      <h2>Hubungi & Pesan Layanan</h2>
+      <p>Isi formulir di bawah ini untuk pemesanan perawat atau konsultasi kebutuhan pasien.</p>
+    </div>
+
+    <div class="contact-container">
+      <!-- Direct Contact Info -->
+      <div class="contact-info">
+        <h3>Informasi Layanan</h3>
+        <p>☎️ <strong>Telepon/WA:</strong> 0812-3456-7890</p>
+        <p>📧 <strong>Email:</strong> care@caredove.com</p>
+        <p>📍 <strong>Kantor Pusat:</strong> Jl. Kesehatan Pastel No. 12, Jakarta</p>
+        <p>⏰ <strong>Jam Operasional:</strong> 24 Jam Setiap Hari</p>
+      </div>
+
+      <!-- Booking Form -->
+      <div class="contact-wrapper">
+        <form id="booking-form">
+          <div class="form-group">
+            <label for="name">Nama Pemesan</label>
+            <input type="text" id="name" required placeholder="Nama Anda">
+          </div>
+          <div class="form-group">
+            <label for="phone">Nomor WhatsApp</label>
+            <input type="tel" id="phone" required placeholder="08xxxxxxxxxx">
+          </div>
+          <div class="form-group">
+            <label for="service">Jenis Layanan</label>
+            <select id="service" required>
+              <option value="">-- Pilih Layanan --</option>
+              <option value="Perawatan Lansia">Perawatan Lansia</option>
+              <option value="Pasca Operasi">Pasca Operasi</option>
+              <option value="Perawatan Ibu & Bayi">Perawatan Ibu & Bayi</option>
+              <option value="Tindakan Medis">Tindakan Medis Singkat</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="address">Alamat Penanganan</label>
+            <textarea id="address" rows="3" required placeholder="Alamat rumah pasien"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Kirim Permintaan Pemesanan</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 CareDove Homecare. Perawatan Sepenuh Hati di Rumah Anda.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
